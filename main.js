@@ -42,11 +42,7 @@ var jog = function (evt) {
     elResultAlert.textContent = "Yo'q"
   }
 
-
-
-
-
-
+  elTemperatureInput.value = userInput;
 
 };
 
