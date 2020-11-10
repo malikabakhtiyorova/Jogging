@@ -32,14 +32,14 @@ var jog = function (evt) {
     elResultAlert.classList.remove("alert-success", "alert-danger");
     elResultAlert.classList.add("alert-success");
     console.log("boramiz");
-    elResultAlert.textContent = "Boramiz";
+    elResultAlert.textContent = "Ha";
   }
 
   else {
     elResultAlert.classList.remove("alert-success", "alert-danger");
     elResultAlert.classList.add("alert-danger");
     console.log("yoq");
-    elResultAlert.textContent = "Borolmaymiz"
+    elResultAlert.textContent = "Yo'q"
   }
 
 
